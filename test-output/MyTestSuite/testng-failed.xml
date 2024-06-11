@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RetailerTests(failed)">
+    <groups>
+      <run>
+        <include name="retailer"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SomanyTestClass.TransactionTestPage">
+        <methods>
+          <include name="Image"/>
+          <include name="Distributor_Name"/>
+          <include name="Invoice_Number"/>
+          <include name="Invoice_Date"/>
+          <include name="MRP"/>
+          <include name="Choose_Image"/>
+          <include name="side_menu"/>
+          <include name="Retailer_Name"/>
+          <include name="Subtotal"/>
+          <include name="Invoice_DateEdite"/>
+          <include name="submit"/>
+          <include name="Unit"/>
+          <include name="Purchase_Price"/>
+          <include name="transaction"/>
+          <include name="Save"/>
+          <include name="Product_Select"/>
+          <include name="Add_Transaction"/>
+          <include name="tapOnScreen"/>
+          <include name="Logout"/>
+          <include name="Add_products"/>
+        </methods>
+      </class> <!-- SomanyTestClass.TransactionTestPage -->
+    </classes>
+  </test> <!-- RetailerTests(failed) -->
+  <test thread-count="5" name="DistributorTests(failed)">
+    <groups>
+      <run>
+        <include name="distributor"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SomanyTestClass.TransactionTestPage">
+        <methods>
+          <include name="transaction"/>
+          <include name="side_menu"/>
+          <include name="Add_Transaction"/>
+          <include name="Retailer_Name"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- SomanyTestClass.TransactionTestPage -->
+    </classes>
+  </test> <!-- DistributorTests(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->

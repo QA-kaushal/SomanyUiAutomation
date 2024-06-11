@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="SomanyTestClass.Listeners"></listener>
+    </listeners>   
+    <!-- First Test Run -->
+    <test thread-count="5" name="TestRun1">		
+		  <groups>
+            <run>
+                <include name="retailer" />
+            </run>
+        </groups>
+        <classes>
+            <class name="SomanyTestClass.loginTest"/>
+            <class name="SomanyTestClass.TransactionTestPage"/>
+        </classes>
+    </test> <!-- TestRun1 -->
+    <!-- Second Test Run with Different Parameter -->
+    <test thread-count="5" name="TestRun2">
+        <parameter name="User" value="9315749351"></parameter>
+         <groups>
+            <run>
+                <include name="distributor" />
+            </run>
+        </groups>
+        <classes>
+            <class name="SomanyTestClass.loginTest"/> 
+             <class name="SomanyTestClass.TransactionTestPage"/>        
+        </classes>
+    </test> <!-- TestRun3 -->
+    <test thread-count="5" name="TestRun3">
+        <parameter name="User" value="9654120602"></parameter>
+         <groups>
+            <run>
+                <include name="F1" />
+            </run>
+        </groups>
+        <classes>
+            <class name="SomanyTestClass.loginTest"/> 
+             <class name="SomanyTestClass.TransactionTestPage"/>        
+        </classes>
+    </test> <!-- TestRun4 -->
+    <test thread-count="5" name="TestRun4">
+        <parameter name="User" value="7498493462"></parameter>
+         <groups>
+            <run>
+                <include name="F2" />
+            </run>
+        </groups>
+        <classes>
+            <class name="SomanyTestClass.loginTest"/> 
+             <class name="SomanyTestClass.TransactionTestPage"/>        
+        </classes>
+    </test> <!-- TestRun2 -->
+</suite> <!-- Suite -->
+
+
