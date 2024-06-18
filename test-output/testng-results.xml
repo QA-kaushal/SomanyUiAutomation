@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T09:00:47 IST" name="Suite" finished-at="2024-06-10T09:00:48 IST" duration-ms="1169">
+  <suite started-at="2024-06-12T11:52:08 IST" name="Suite" finished-at="2024-06-12T11:52:09 IST" duration-ms="1069">
     <groups>
       <group name="retailer">
-        <method signature="loginTest.mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@4fc5e095]" name="mobileNumber" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@3dddefd8]" name="mobileNumber" class="SomanyTestClass.loginTest"/>
       </group> <!-- retailer -->
     </groups>
-    <test started-at="2024-06-10T09:00:47 IST" name="Test" finished-at="2024-06-10T09:00:48 IST" duration-ms="1169">
+    <test started-at="2024-06-12T11:52:08 IST" name="Test" finished-at="2024-06-12T11:52:09 IST" duration-ms="1069">
       <class name="SomanyTestClass.loginTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:SomanyTestClass.loginTest@4fc5e095]" started-at="2024-06-10T09:00:47 IST" name="start" finished-at="2024-06-10T09:00:48 IST" duration-ms="1005" status="FAIL">
+        <test-method is-config="true" signature="start()[pri:0, instance:SomanyTestClass.loginTest@3dddefd8]" started-at="2024-06-12T11:52:08 IST" name="start" finished-at="2024-06-12T11:52:09 IST" duration-ms="924" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -81,7 +81,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@4fc5e095]" started-at="2024-06-10T09:00:48 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-10T09:00:48 IST" duration-ms="0" status="SKIP">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@3dddefd8]" started-at="2024-06-12T11:52:09 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-12T11:52:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -159,7 +159,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method is-config="true" signature="sendEmailWithAttachment()[pri:0, instance:SomanyTestClass.loginTest@4fc5e095]" started-at="2024-06-10T09:00:48 IST" name="sendEmailWithAttachment" finished-at="2024-06-10T09:00:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="sendEmailWithAttachment()[pri:0, instance:SomanyTestClass.loginTest@3dddefd8]" started-at="2024-06-12T11:52:09 IST" name="sendEmailWithAttachment" finished-at="2024-06-12T11:52:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendEmailWithAttachment -->

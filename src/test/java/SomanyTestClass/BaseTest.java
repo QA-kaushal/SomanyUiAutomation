@@ -58,67 +58,12 @@ public void start() throws MalformedURLException, InterruptedException {
 			lp = PageFactory.initElements(driver, loginPage.class);
 			RF=PageFactory.initElements(driver, RedumptionFlowPage.class);
 					 
-}
+    }
 	@AfterClass(alwaysRun=true)
 	
 	 public void sendEmailWithAttachment() {
-//		System.out.println("emailstart");
-//		        try {
-//		            Properties properties = new Properties();
-//		            properties.put("mail.smtp.host", "smtp.sendgrid.net");
-//		            properties.put("mail.smtp.port", "587"); // Use port 587 for TLS
-//		            properties.put("mail.smtp.auth", "true");
-//		            properties.put("mail.smtp.starttls.enable", "true");
-//		            properties.put("mail.debug", "true");
-//
-//		            Session session = Session.getInstance(properties, new Authenticator() {
-//		                protected PasswordAuthentication getPasswordAuthentication() {
-//		                    return new PasswordAuthentication("apikey", "9Y7936FV949ZXB87YEPVHHSC");
-//		                }
-//		            });
-//		 
-//		            MimeMessage message = new MimeMessage(session);
-//		            message.setFrom(new InternetAddress("kaushalautomation1@gmail.com"));
-//		            message.setRecipient(Message.RecipientType.TO, new InternetAddress("kaushal.golangade@channelplay.in"));
-//		            message.setSubject("Automation Test Report");
-//		 
-//		            // Create a multipart message
-//		            Multipart multipart = new MimeMultipart();
-//		 
-//		            // Text message part
-//		            MimeBodyPart textBodyPart = new MimeBodyPart();
-//		            textBodyPart.setText("Hi Team,\n\nAutomation flow triggered. PFA the generated test report(Prod).\n\nThanks & Regards,\nQA Engineer.");
-//		            multipart.addBodyPart(textBodyPart);
-//		 
-//		            // Attachment part
-//		            MimeBodyPart attachmentBodyPart = new MimeBodyPart();
-//		 
-//		            String filePath = "C:\\Users\\kaushal.golangade\\eclipse-workspace\\Somany\\reports\\index.htm"; // Replace with the actual file path
-//		 
-//		            File file = new File(filePath);
-//		 
-//		            if (file.exists()) {
-//		                FileInputStream fileInputStream = new FileInputStream(file);
-//		 
-//		                attachmentBodyPart.setDataHandler(new DataHandler(new ByteArrayDataSource(fileInputStream, "text/plain")));
-//		                attachmentBodyPart.setFileName(file.getName());
-//		                multipart.addBodyPart(attachmentBodyPart);
-//		            } else {
-//		                System.out.println("File not found at: " + filePath);
-//		                return;
-//		            }
-//		 
-//		            message.setContent(multipart);
-//		 
-//		            Transport.send(message);
-//		            System.out.println("Email sent successfully.");
-//		        } catch (Exception e) {
-//		            e.printStackTrace();
-//		        }
-//		        System.out.println("emailend");
-		    }
-//	
-
+	
+	 }
 	} 
 	
 	      
