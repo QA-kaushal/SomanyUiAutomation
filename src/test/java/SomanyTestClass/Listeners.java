@@ -1,5 +1,7 @@
 package SomanyTestClass;
 
+import java.io.IOException;
+
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
@@ -11,8 +13,16 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
-public class Listeners implements ITestListener  {
+
+public class Listeners  implements ITestListener  {
+
+
+
+	AndroidActions act = new AndroidActions(null);
+AppiumDriver driver;
 	ExtentTest test;
 ExtentReports extent = ExtenetReporterNG.getreporterObject();
 
@@ -25,11 +35,22 @@ ExtentReports extent = ExtenetReporterNG.getreporterObject();
 	    @Override
 	    public void onTestSuccess(ITestResult result) {
 	       test.log(Status.PASS, "Testcase Passesd") ;
+	      
 	    }
 
 	    @Override
 	    public void onTestFailure(ITestResult result) {
 	    	test.log(Status.FAIL, result.getThrowable());
+	    	try {
+				driver=(AppiumDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+	    	try {
+				test.addScreenCaptureFromPath(act.getScreenShot(result.getMethod().getMethodName(), driver), result.getMethod().getMethodName());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 	    }
 
 	    @Override
@@ -51,29 +72,8 @@ ExtentReports extent = ExtenetReporterNG.getreporterObject();
 	    public void onFinish(ITestContext context) {
 	       extent.flush();
 	       // Send the report via email
-	        String host = "smtp.sendgrid.net";
-	        String port = "587";
-	        String mailFrom = "kaushalautomation1@gmail.com";
-	        String password = "wcdihoioftccdupa";
-	        
-	        // Recipients
-	        String mailTo = "kaushal.golangade@channelplay.in";
-	        String subject = "ExtentReports - TestNG Execution Report";
-	        String message = "Please find the attached test execution report.";
-	        String attachFiles = "extent.html";
-
-	        try {
-	            EmailUtil.sendEmailWithAttachment(host, port, mailFrom, password, mailTo,
-	                                              subject, message, attachFiles);
-	            System.out.println("Email sent successfully.");
-	        } catch (AddressException ex) {
-	            ex.printStackTrace();
-	        } catch (MessagingException ex) {
-	            ex.printStackTrace();
-	        }
 	    }
 	    }
-
 	 
 	
 	

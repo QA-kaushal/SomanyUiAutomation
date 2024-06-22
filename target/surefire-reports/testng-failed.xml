@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="SomanyTestClass.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="retailer"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SomanyTestClass.loginTest">
+        <methods>
+          <include name="sendEmailWithAttachment"/>
+          <include name="enterOTP" invocation-numbers="5"/>
+          <include name="resendOTP"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- SomanyTestClass.loginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

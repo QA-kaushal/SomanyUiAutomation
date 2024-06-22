@@ -1,87 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="1" total="17" passed="14" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-12T11:52:08 IST" name="Suite" finished-at="2024-06-12T11:52:09 IST" duration-ms="1069">
+  <suite started-at="2024-06-21T13:06:48 IST" name="Suite" finished-at="2024-06-21T13:09:09 IST" duration-ms="140928">
     <groups>
       <group name="retailer">
-        <method signature="loginTest.mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@3dddefd8]" name="mobileNumber" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" name="mobileNumber" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
       </group> <!-- retailer -->
+      <group name="F1">
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+      </group> <!-- F1 -->
+      <group name="F2">
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+      </group> <!-- F2 -->
+      <group name="distributor">
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+      </group> <!-- distributor -->
     </groups>
-    <test started-at="2024-06-12T11:52:08 IST" name="Test" finished-at="2024-06-12T11:52:09 IST" duration-ms="1069">
+    <test started-at="2024-06-21T13:06:48 IST" name="Test" finished-at="2024-06-21T13:09:09 IST" duration-ms="140928">
       <class name="SomanyTestClass.loginTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:SomanyTestClass.loginTest@3dddefd8]" started-at="2024-06-12T11:52:08 IST" name="start" finished-at="2024-06-12T11:52:09 IST" duration-ms="924" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'L-270331', ip: '192.168.2.155']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'L-270331', ip: '192.168.2.155'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-at SomanyTestClass.BaseTest.start(BaseTest.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.WebDriverException: Connection refused: no further information
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$execute$4(AppiumCommandExecutor.java:274)
-at java.base/java.util.Optional.orElseGet(Optional.java:364)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:273)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 32 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method is-config="true" signature="start()[pri:0, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:06:48 IST" name="start" finished-at="2024-06-21T13:06:58 IST" duration-ms="9751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@3dddefd8]" started-at="2024-06-12T11:52:09 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-12T11:52:09 IST" duration-ms="0" status="SKIP">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:06:58 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:07 IST" duration-ms="9382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:08 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:17 IST" duration-ms="8714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12472415424165]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:18 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:26 IST" duration-ms="8161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123dhsgg12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:27 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:35 IST" duration-ms="8265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdgfuggbgu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:36 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:44 IST" duration-ms="8248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[213354678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:44 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:55 IST" duration-ms="10788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3425666666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:56 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:08:08 IST" duration-ms="12192" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,31 +110,128 @@ at java.base/java.lang.Thread.run(Thread.java:833)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method signature="sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:09 IST" name="sendOTP" finished-at="2024-06-21T13:08:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendOTP -->
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:11 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:17 IST" duration-ms="6306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:18 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:24 IST" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[124724]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:25 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:32 IST" duration-ms="6820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123dhsgg12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:33 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:47 IST" duration-ms="13606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdgfuggbgu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:48 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:09:01 IST" duration-ms="12339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:01 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:09:05 IST" duration-ms="3795" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'L-270331', ip: '192.168.2.155']]>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.widget.EditText}]
+Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'L-270331', ip: '192.168.2.155'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-at SomanyTestClass.BaseTest.start(BaseTest.java:53)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.widget.EditText}]
+Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at Android.loginPage.OTP_clear(loginPage.java:58)
+at SomanyTestClass.loginTest.enterOTP(loginTest.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:806)
 at org.testng.TestRunner.run(TestRunner.java:601)
@@ -130,36 +248,92 @@ at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.WebDriverException: Connection refused: no further information
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$execute$4(AppiumCommandExecutor.java:274)
-at java.base/java.util.Optional.orElseGet(Optional.java:364)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:273)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 32 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobileNumber -->
-        <test-method is-config="true" signature="sendEmailWithAttachment()[pri:0, instance:SomanyTestClass.loginTest@3dddefd8]" started-at="2024-06-12T11:52:09 IST" name="sendEmailWithAttachment" finished-at="2024-06-12T11:52:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- enterOTP -->
+        <test-method signature="submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:06 IST" name="submit" finished-at="2024-06-21T13:09:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method signature="resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:08 IST" name="resendOTP" finished-at="2024-06-21T13:09:08 IST" duration-ms="47" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.view.View[@content-desc='Resend OTP']}]
+Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.view.View[@content-desc='Resend OTP']}]
+Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at Android.loginPage.getResend_OTP(loginPage.java:69)
+at SomanyTestClass.loginTest.resendOTP(loginTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resendOTP -->
+        <test-method is-config="true" signature="sendEmailWithAttachment()[pri:0, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:09 IST" name="sendEmailWithAttachment" finished-at="2024-06-21T13:09:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendEmailWithAttachment -->

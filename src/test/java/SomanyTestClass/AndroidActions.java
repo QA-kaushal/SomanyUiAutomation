@@ -1,11 +1,17 @@
 package SomanyTestClass;
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class AndroidActions {
@@ -33,6 +39,12 @@ public class AndroidActions {
 	public void ScrollToText(String text) {
 	driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\""+text+"\"))"));
 
-		
+	}
+	
+	public String getScreenShot(String TestCaseName, AppiumDriver driver) throws IOException {
+		File source = driver.getScreenshotAs(OutputType.FILE);
+		String destinationFile = System.getProperty("user.dir")+"//reports"+TestCaseName+".png";
+		FileUtils.copyFile(source,new File(destinationFile));
+		return destinationFile;
 	}
 }

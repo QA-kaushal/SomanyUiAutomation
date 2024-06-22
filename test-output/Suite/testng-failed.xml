@@ -13,9 +13,10 @@
     <classes>
       <class name="SomanyTestClass.loginTest">
         <methods>
-          <include name="mobileNumber"/>
           <include name="sendEmailWithAttachment"/>
+          <include name="enterOTP" invocation-numbers="5"/>
           <include name="start"/>
+          <include name="resendOTP"/>
         </methods>
       </class> <!-- SomanyTestClass.loginTest -->
     </classes>
