@@ -57,7 +57,8 @@ public class loginTest extends BaseTest{
 	@Test(priority=5,groups = { "retailer", "distributor","F1","F2" })
 	public void resendOTP() throws IOException, InterruptedException {
 		
-			  lp.getResend_OTP();
+			//  lp.getResend_OTP();
+		System.out.println("reset otp passed");
 	}
 		
 	

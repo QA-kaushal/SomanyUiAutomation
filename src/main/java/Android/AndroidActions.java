@@ -89,8 +89,9 @@ public class AndroidActions {
 	                    .waitAction(WaitOptions.waitOptions(Duration.ofMillis(500)))
 	                    .moveTo(PointOption.point(  startX,endY))
 	                    .release()
-	                    .perform();				    
-				}
+	                    .perform();
+						
+			}
 				
  public void scrollToText(String text) { 
 	  driver.findElement(AppiumBy.androidUIAutomator(

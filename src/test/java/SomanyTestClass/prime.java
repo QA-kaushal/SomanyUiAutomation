@@ -6,14 +6,19 @@ public class prime {
 	
 	public static void main(String[] args) {
 		
-		int a=5;
+		int a=227;
 		
-		if(a==1 || a==2){
+		if(a==2 || a==3){
 			System.out.println("prime");
-			}
-		else if(a%2 == 1 & a%3==1)
+		}
+		else if(a%2 == 0 || a%3==0)
 		{
-			System.out.println("prime");
+			System.out.println( "N prime");
+			
 	}
-}
+		else
+	{
+		System.out.println(" prime");
+	}
+ }
 }

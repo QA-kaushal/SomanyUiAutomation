@@ -57,8 +57,9 @@ public void start() throws MalformedURLException, InterruptedException {
 			np= PageFactory.initElements(driver, RetailerNominiPage.class);
 			lp = PageFactory.initElements(driver, loginPage.class);
 			RF=PageFactory.initElements(driver, RedumptionFlowPage.class);
-					 
+			
     }
+	
 	@AfterClass(alwaysRun=true)
 	
 	 public void sendEmailWithAttachment() {

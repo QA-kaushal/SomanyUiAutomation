@@ -14,7 +14,7 @@ public  class ExtenetReporterNG  {
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Somany result");
 		reporter.config().setDocumentTitle("Test Result");
-		reporter.config().setTheme(Theme.DARK);
+		reporter.config().setTheme(Theme.STANDARD);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Company Name", "Channelplay Limited");

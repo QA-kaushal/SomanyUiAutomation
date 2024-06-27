@@ -1,42 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="17" passed="14" failed="2" skipped="0">
+<testng-results ignored="0" total="17" passed="14" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-21T13:06:48 IST" name="Suite" finished-at="2024-06-21T13:09:09 IST" duration-ms="140928">
+  <suite started-at="2024-06-24T16:10:38 IST" name="Default suite" finished-at="2024-06-24T16:12:25 IST" duration-ms="107466">
     <groups>
       <group name="retailer">
-        <method signature="loginTest.mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" name="mobileNumber" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" name="mobileNumber" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@30e868be]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@30e868be]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@30e868be]" name="resendOTP" class="SomanyTestClass.loginTest"/>
       </group> <!-- retailer -->
       <group name="F1">
-        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.DistributorNo(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" name="DistributorNo" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@30e868be]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@30e868be]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@30e868be]" name="resendOTP" class="SomanyTestClass.loginTest"/>
       </group> <!-- F1 -->
       <group name="F2">
-        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.DistributorNo(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" name="DistributorNo" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@30e868be]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@30e868be]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@30e868be]" name="resendOTP" class="SomanyTestClass.loginTest"/>
       </group> <!-- F2 -->
       <group name="distributor">
-        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" name="sendOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" name="enterOTP" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" name="submit" class="SomanyTestClass.loginTest"/>
-        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" name="resendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.DistributorNo(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" name="DistributorNo" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.sendOTP()[pri:2, instance:SomanyTestClass.loginTest@30e868be]" name="sendOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" name="enterOTP" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.submit()[pri:4, instance:SomanyTestClass.loginTest@30e868be]" name="submit" class="SomanyTestClass.loginTest"/>
+        <method signature="loginTest.resendOTP()[pri:5, instance:SomanyTestClass.loginTest@30e868be]" name="resendOTP" class="SomanyTestClass.loginTest"/>
       </group> <!-- distributor -->
     </groups>
-    <test started-at="2024-06-21T13:06:48 IST" name="Test" finished-at="2024-06-21T13:09:09 IST" duration-ms="140928">
+    <test started-at="2024-06-24T16:10:38 IST" name="Default test" finished-at="2024-06-24T16:12:25 IST" duration-ms="107466">
       <class name="SomanyTestClass.loginTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:06:48 IST" name="start" finished-at="2024-06-21T13:06:58 IST" duration-ms="9751" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:10:38 IST" name="start" finished-at="2024-06-24T16:10:49 IST" duration-ms="11381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:06:58 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:07 IST" duration-ms="9382" status="PASS">
+        <test-method signature="DistributorNo(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:10:49 IST" name="DistributorNo" finished-at="2024-06-24T16:10:49 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'User' is required by @Test on method DistributorNo but has not been marked @Optional or defined
+in C:\Users\kaushal.golangade\AppData\Local\Temp\testng-eclipse--126412329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'User' is required by @Test on method DistributorNo but has not been marked @Optional or defined
+in C:\Users\kaushal.golangade\AppData\Local\Temp\testng-eclipse--126412329\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistributorNo -->
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:10:49 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:10:59 IST" duration-ms="10173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:08 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:17 IST" duration-ms="8714" status="PASS">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:10:59 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:11:08 IST" duration-ms="8907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:18 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:26 IST" duration-ms="8161" status="PASS">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:08 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:11:18 IST" duration-ms="9689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:27 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:35 IST" duration-ms="8265" status="PASS">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:18 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:11:27 IST" duration-ms="9359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:36 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:44 IST" duration-ms="8248" status="PASS">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:27 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:11:35 IST" duration-ms="8109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:44 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:07:55 IST" duration-ms="10788" status="PASS">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:35 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:11:46 IST" duration-ms="10244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:07:56 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-21T13:08:08 IST" duration-ms="12192" status="PASS">
+        <test-method signature="mobileNumber(java.lang.String)[pri:1, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:46 IST" name="mobileNumber" data-provider="loginMOBno" finished-at="2024-06-24T16:11:54 IST" duration-ms="8366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,11 +160,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNumber -->
-        <test-method signature="sendOTP()[pri:2, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:09 IST" name="sendOTP" finished-at="2024-06-21T13:08:09 IST" duration-ms="3" status="PASS">
+        <test-method signature="sendOTP()[pri:2, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:54 IST" name="sendOTP" finished-at="2024-06-24T16:11:54 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendOTP -->
-        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:11 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:17 IST" duration-ms="6306" status="PASS">
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:54 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-24T16:11:59 IST" duration-ms="4610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:18 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:24 IST" duration-ms="5358" status="PASS">
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:11:59 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-24T16:12:04 IST" duration-ms="5743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +186,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:25 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:32 IST" duration-ms="6820" status="PASS">
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:04 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-24T16:12:10 IST" duration-ms="6064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:33 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:08:47 IST" duration-ms="13606" status="PASS">
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:10 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-24T16:12:15 IST" duration-ms="4686" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,7 +208,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:08:48 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:09:01 IST" duration-ms="12339" status="PASS">
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:15 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-24T16:12:20 IST" duration-ms="4925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -172,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:01 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-21T13:09:05 IST" duration-ms="3795" status="FAIL">
+        <test-method signature="enterOTP(java.lang.String)[pri:3, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:20 IST" name="enterOTP" data-provider="loginOTP" finished-at="2024-06-24T16:12:24 IST" duration-ms="4303" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -184,22 +231,22 @@
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
+Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.widget.EditText}]
+Command: [c44beaaa-45e0-4764-ba02-c27657551650, findElement {using=xpath, value=//android.widget.EditText}]
 Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d]]>
+Session ID: c44beaaa-45e0-4764-ba02-c27657551650]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
+Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.widget.EditText}]
+Command: [c44beaaa-45e0-4764-ba02-c27657551650, findElement {using=xpath, value=//android.widget.EditText}]
 Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d
+Session ID: c44beaaa-45e0-4764-ba02-c27657551650
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -217,7 +264,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
 at Android.loginPage.OTP_clear(loginPage.java:58)
 at SomanyTestClass.loginTest.enterOTP(loginTest.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -254,31 +301,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method signature="submit()[pri:4, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:06 IST" name="submit" finished-at="2024-06-21T13:09:06 IST" duration-ms="3" status="PASS">
+        <test-method signature="submit()[pri:4, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:24 IST" name="submit" finished-at="2024-06-24T16:12:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submit -->
-        <test-method signature="resendOTP()[pri:5, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:08 IST" name="resendOTP" finished-at="2024-06-21T13:09:08 IST" duration-ms="47" status="FAIL">
+        <test-method signature="resendOTP()[pri:5, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:24 IST" name="resendOTP" finished-at="2024-06-24T16:12:25 IST" duration-ms="646" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
+Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.view.View[@content-desc='Resend OTP']}]
+Command: [c44beaaa-45e0-4764-ba02-c27657551650, findElement {using=xpath, value=//android.view.View[@content-desc='Resend OTP']}]
 Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d]]>
+Session ID: c44beaaa-45e0-4764-ba02-c27657551650]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
+Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [4df144e1-7b7e-4f29-b431-e2d92e78d48d, findElement {using=xpath, value=//android.view.View[@content-desc='Resend OTP']}]
+Command: [c44beaaa-45e0-4764-ba02-c27657551650, findElement {using=xpath, value=//android.view.View[@content-desc='Resend OTP']}]
 Capabilities {appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, deviceName: Android SDK built for x86, platformName: ANDROID}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2868, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 4df144e1-7b7e-4f29-b431-e2d92e78d48d
+Session ID: c44beaaa-45e0-4764-ba02-c27657551650
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -296,7 +343,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
 at Android.loginPage.getResend_OTP(loginPage.java:69)
 at SomanyTestClass.loginTest.resendOTP(loginTest.java:60)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -333,11 +380,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resendOTP -->
-        <test-method is-config="true" signature="sendEmailWithAttachment()[pri:0, instance:SomanyTestClass.loginTest@6c6c5427]" started-at="2024-06-21T13:09:09 IST" name="sendEmailWithAttachment" finished-at="2024-06-21T13:09:09 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="sendEmailWithAttachment()[pri:0, instance:SomanyTestClass.loginTest@30e868be]" started-at="2024-06-24T16:12:25 IST" name="sendEmailWithAttachment" finished-at="2024-06-24T16:12:25 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendEmailWithAttachment -->
       </class> <!-- SomanyTestClass.loginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
