@@ -13,20 +13,7 @@ pipeline {
         }
         stage('Build and Test - Login') {
             steps {
-                script {
-                    if (params.RUN_LOGIN) {
-                        sh 'mvn clean test -PLogin'
-                    }
-                }
-            }
-        }
-        stage('Build and Test - Regression') {
-            steps {
-                script {
-                    if (params.RUN_REGRESSION) {
-                        sh 'mvn clean test -PRegression'
-                    }
-                }
+                sh 'mvn clean test -PLogin'
             }
         }
     }

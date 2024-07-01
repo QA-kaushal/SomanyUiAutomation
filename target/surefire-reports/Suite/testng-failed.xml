@@ -16,7 +16,6 @@
           <include name="mobileNumber" invocation-numbers="6"/>
           <include name="sendEmailWithAttachment"/>
           <include name="enterOTP" invocation-numbers="5"/>
-          <include name="resendOTP"/>
           <include name="start"/>
         </methods>
       </class> <!-- SomanyTestClass.loginTest -->
