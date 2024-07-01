@@ -2,18 +2,28 @@ pipeline {
     agent any
     
     tools {
-        maven 'Maven' // Assumes Maven is installed and named 'Maven'
+        // Define Maven tool installation
+        maven 'Maven' // Make sure 'Maven' matches the name defined in Jenkins configuration
+        jdk 'Java 18.0.2.1' // Define the specific JDK version
     }
     
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/username/repository.git', branch: 'main'
+                // Replace with your actual Git repository URL and branch
+                git url: 'https://github.com/QA-kaushal/SomanyUiAutomation.git', branch: 'master'
             }
         }
         stage('Build and Test - Login') {
             steps {
+<<<<<<< HEAD
                 sh 'mvn clean test -PLogin'
+=======
+                script {
+                    // Assuming you want to run only the 'Login' profile
+                    sh 'mvn clean test -PLogin'
+                }
+>>>>>>> e5c438bad4e0a81778b26cad2e958d654b5ea6d4
             }
         }
     }
